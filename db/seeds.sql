@@ -1,5 +1,8 @@
-INSERT INTO sandwiches (sandwich_name) VALUES ('Chicken-fil-a Spicy Chicken Sandwich');
-INSERT INTO sandwiches (sandwich_name) VALUES ('Philly Cheese Steak');
-INSERT INTO sandwiches (sandwich_name) VALUES ('Sierra Turkey Club');
-INSERT INTO sandwiches (sandwich_name) VALUES ('Grilled Cheese Sandwich');
-INSERT INTO sandwiches (sandwich_name) VALUES ('Turkey Burger');
+INSERT INTO burgers (name) VALUES ('Cheese burger');
+INSERT INTO burgers (name) VALUES ('Double cheese burger');
+INSERT INTO burgers (name) VALUES ('Spicy chicken burger');
+INSERT INTO burgers (name) VALUES ('Veggie burger');
+INSERT INTO burgers (name) VALUES ('Fish burger');
+INSERT INTO burgers (name) VALUES ('Steak sandwich');
+
+SELECT * FROM burgers;

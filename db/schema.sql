@@ -1,12 +1,10 @@
+-- DROP database IF EXISTS burgers_db;  // to reset database
+CREATE DATABASE burgers_db;
+USE burgers_db;
 
-CREATE DATABASE sandwiches_db;
-USE sandwiches_db;
-
-CREATE TABLE sandwiches
-(
-	id int AUTO_INCREMENT NOT NULL,
-	sandwich_name varchar(255) NOT NULL,
+CREATE TABLE burgers (
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(255) NOT NULL,
 	devoured BOOLEAN DEFAULT false,
-	date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	PRIMARY KEY (id)
 );
